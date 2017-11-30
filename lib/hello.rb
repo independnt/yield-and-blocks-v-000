@@ -8,6 +8,7 @@ def hello_t(array)
   array
 else puts "Hey, no block was given!"
 end
+end
 
 # call your method here!
 hello_t(["Tim", "Tom", "Jim"]) do |name|
